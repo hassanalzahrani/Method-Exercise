@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Finding the smallest number among three numbers
         System.out.print("Input the first number: ");
         int number1 = scanner.nextInt();
         System.out.print("Input the second number: ");
@@ -15,12 +14,10 @@ public class Main {
         double smallest = findSmallest(number1, number2, number3);
         System.out.println("The smallest value is " + smallest);
 
-        // Checking if a number is negative, positive, or zero
         System.out.print("Input a number to check if it's positive, negative, or zero: ");
         int numberToCheck = scanner.nextInt();
         checkNumber(numberToCheck);
 
-        // Checking if a string is a valid password
         System.out.println("A password must have at least ten characters.");
         System.out.println("A password consists of only letters and digits.");
         System.out.println("A password must contain at least two digits.");
